@@ -129,6 +129,25 @@ class _MyHomePageState extends State<MyHomePage> {
                     setState(() {
                       tfControl.text="";
                       Sifreleme();
+                      showDialog(
+                          context: context,
+                          builder: (BuildContext context){
+                            return AlertDialog(
+                              title: const Text("Dikkat"),
+                              content: Text("Yazdığınız metin şifrelendi"),
+                              actions: [
+                                TextButton(
+                                  child: const Text("Tamam"),
+                                  onPressed:(){
+                                    setState(() {
+                                      Navigator.pop(context);
+
+                                    });
+                                  },
+                                )
+                              ],
+                            );
+                          });
                     });
                   },
                 ),
