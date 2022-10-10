@@ -134,7 +134,7 @@ class _MyHomePageState extends State<MyHomePage> {
                           builder: (BuildContext context){
                             return AlertDialog(
                               title: const Text("Dikkat"),
-                              content: Text("Yazdığınız metin şifrelendi"),
+                              content: Text("Yazdığınız metin şifrelendi.\nŞifreniz: $sifrelenmis"),
                               actions: [
                                 TextButton(
                                   child: const Text("Tamam"),
