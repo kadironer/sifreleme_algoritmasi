@@ -1,16 +1,9 @@
 # sifreleme_algoritmasi
 
-A new Flutter project.
+Kullanıcıdan alınan değeri ASCII tablosunda eşleşme yaparak önce ASCII kodunu reverse edip daha sonra aralarına rastgele harf ekledikten sonra şifreleme işlemi yaptım. Daha sonrasında tekrar o şifreyi çözen algoritma ile sonucu ekrana yazdırdım.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![1](https://user-images.githubusercontent.com/84284375/194934639-42e5cfe2-c583-4f64-bf10-be732051d941.png)
+![2](https://user-images.githubusercontent.com/84284375/194934653-d8e3c999-5980-49a0-9e99-97961fea53e9.png)
+![3](https://user-images.githubusercontent.com/84284375/194934664-3be86822-f191-45a0-ac65-5f9250cba710.png)
+![4](https://user-images.githubusercontent.com/84284375/194934671-80cbc0fa-91c0-46ba-9b8b-8481255b6d08.png)
